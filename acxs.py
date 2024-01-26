@@ -75,12 +75,11 @@ logo = ("""
 ╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░
                                             
  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- ┃ [\033[1;91m✓\033[1;92m] CREATOR   \033[1;91m: \033[1;92mART      
- ┃ [\033[1;91m✓\033[1;92m] TOOL      \033[1;91m: \033[1;92mCLONING TOOL             
- ┃ [\033[1;91m✓\033[1;92m] STATUS    \033[1;91m: \033[1;92mFREE                       
- ┃ [\033[1;91m✓\033[1;92m] SYSTEM    \033[1;91m: \033[1;92mDATA & WIFI                    
- ┃ [\033[1;91m✓\033[1;92m] FACEBOOK  \033[1;91m: \033[1;92mART       
- ┃ [\033[1;91m✓\033[1;92m] VERSION \033[1;91m: \033[1;92m0.2          
+ ┃  Author : Art     
+ ┃  Github : Not-Found            
+ ┃  Facebook : Art                      
+ ┃  Tool : Cloning and free                   
+ ┃  Version : 0.1           
  ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━""")
 
 def linex():
@@ -119,8 +118,6 @@ def ckx():
 def Spy():
 	clear()
 	print(f" [1] File Crack")
-	print(f" [2] Random Crack")
-	print(f" [3] Gmail Crack")
 	print(f" [0] Exit")
 	me=input(f'\n [?] Choose : ')
 	if me in ["2", "02"]:
